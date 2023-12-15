@@ -1,12 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
-/* 
+.traffic-lights{
+    background-color: black;
+    width: 120px;
+    height: 350px;
+    
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.traffic-lights button {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 0px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.red-selected {
+    background-color: red;
+    box-shadow: 0 0 80px 25px rgba(247, 252, 0, 0.637);
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellow-selected {
+    background-color: yellow;
+    box-shadow: 0 0 80px 25px rgba(247, 252, 0, 0.637);
+}
+
+.green {
+    background-color: green;
+}
+
+.green-selected {
+    background-color: green;
+    box-shadow: 0 0 80px 25px rgba(247, 252, 0, 0.637);
+}
